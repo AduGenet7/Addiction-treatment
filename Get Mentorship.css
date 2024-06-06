@@ -1,0 +1,107 @@
+/* Global Styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+
+  /* Header Section Styles */
+
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+  header h1 {
+    font-size: 36px;
+  }
+
+  header p {
+    font-size: 18px;
+  }
+
+  header button {
+    margin-top: 10px;
+  }
+
+  /* Introduction Section Styles */
+
+  section {
+    padding: 20px;
+  }
+
+  section h2 {
+    font-size: 24px;
+  }
+
+  section ul {
+    list-style-type: none;
+  }
+
+  section li {
+    margin-bottom: 10px;
+  }
+
+  /* Mentorship Program Details Styles */
+
+  section ul li {
+    padding-left: 20px;
+  }
+
+  /* Testimonials Section Styles */
+
+  section ul li img {
+    width: 50px;
+  }
+
+  /* Call-to-Action (CTA) Button Styles */
+
+  button.btn {
+    margin-bottom: 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button.btn:hover {
+    background-color: #8e3e3e;
+  }
+
+  /* Form or Contact Information Styles */
+
+  form {
+    padding: 20px;
+  }
+
+  form label {
+    display: block;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form input[type="tel"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+
+  form button[type="submit"] {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  form button[type="submit"]:hover {
+    background-color: #8e3e3e;
+  }

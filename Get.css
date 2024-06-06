@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+a {
+    text-decoration: none;
+  }
+.header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+    padding: 0 20px;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  .nav {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .nav,
+  .nav_item {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+  }
+  span{
+    color: orangered;
+  }
+  .nav_logo,
+  .nav_link{
+    color: #fff;
+  }
+  .nav_logo {
+    font-size: 25px;
+  }
+  .nav_item {
+    column-gap: 25px;
+  }
+  .nav_link:hover {
+    color: orangered;
+  }
+ 
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+main h1 {
+    color: yellow;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 60%;
+}
+
+.menu-item {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: left;
+    position: relative;
+}
+
+.menu-item h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.menu-item p {
+    font-size: 14px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: red;
+    font-size: 24px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.mentorship {
+    width: 35%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mentorship img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.mentorship .overlay {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.mentorship a {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.div-22 {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.watch-video {
+    background-color: yellow;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.watch-video:hover {
+    background-color: black;
+    color: yellow;
+}
+
+footer {
+  z-index: 1;
+  background-color: #000;
+  width: 100%;
+  align-items: center;
+  color: #fff;
+  justify-content: center;
+  padding: 10px 60px;
+  font: 300 16px Inter, sans-serif;
+}
